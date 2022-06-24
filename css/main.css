@@ -1,4 +1,232 @@
-body {
-    background-color: #F2F2F0;
-    font-family: 'Barlow', sans-serif;
+/* --------------------------- mobile --------------------------- */
+/* BASE STYLES */
+
+html {
+    font-size: 16px;
+    line-height: 1.4;
 }
+
+
+body {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    background-color: #e8eff7;
+    color: #453e4f;
+    font-family: 'Barlow', sans-serif;
+    font-size: 1em;
+    width: 100%;
+}
+
+main {
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    list-style-type: none;
+    text-decoration: none;
+    padding-inline-start: 0;
+    margin: 0;
+}
+
+/* img {
+    max-width: 540px;
+} */
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3, nav ul li {
+    font-weight: bold;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 30px;
+}
+
+header h1 {
+    font-size: 3em;
+}
+
+/* #initials {
+    background-color: #453e4f;
+    color:#e8eff7;
+    width: 100%;
+    text-align: center;
+    padding: 0.5em;
+} */
+
+#header-full-name {
+    margin-top: 30px 0 30px 0;
+}
+
+header p {
+    font-size: 1.5em;
+    line-height: 1.5em;
+    margin: 0;
+}
+
+/* nav */
+
+header nav {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5em;
+}
+
+header a {
+    color:#453e4f;
+}
+
+#nav-contact {
+    /* background-color: #e9b14c; */
+    /* border: 2px solid #e9b14c; */
+    border-radius: 20px;
+    /* padding: 0 0.5em 0.25em 0.5em; */
+}
+
+
+/* ABOUT */
+#about {
+    align-items: center;
+}
+
+#about-me {
+    width: 75%;
+    text-align: center;
+}
+
+/* SKILLS */
+#skills {
+    padding: 80px 0;
+    align-items: center;
+}
+
+#dev-skills {
+    margin-top: 0;
+}
+
+#skills ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/* PROJECTS */
+#projects {
+    align-items: center;
+}
+
+.projects-list {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    width: 75%;
+    padding: 0 30px 0 30px;
+}
+
+.project {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+/* CONTACT */
+#contact {
+    background-color: #453e4f;
+    color:#e8eff7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 30px 0 30px;
+    width: 100%;
+}
+
+#contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer a {
+    color: #e8eff7;
+}
+
+footer h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 2em;
+}
+
+#email-address {
+    margin: 30px 0;
+}
+
+.social-links {
+    display: flex;
+    justify-content: space-around;
+    min-width: 200px;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+#copyright {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+
+
+/* --------------------------- tablet --------------------------- */
+/* @media only screen and (min-width: 768px) {} */
+
+/* HEADER */
+
+
+/* ABOUT */
+
+
+/* PROJECTS */
+
+
+/* SKILLS */
+
+
+/* CONTACT */
+
+
+/* --------------------------- desktop --------------------------- */
+/* @media only screen and (min-width: 1200px) {} */
+
+/* HEADER */
+
+
+/* ABOUT */
+
+
+/* PROJECTS */
+
+
+/* SKILLS */
+
+
+/* CONTACT */
+

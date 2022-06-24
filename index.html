@@ -17,38 +17,58 @@
 
     <body>
         <header>
-            <h1>EM</h1>
+            <!-- <h1 id="initials">EM</h1> -->
             <nav>
                 <ul class="nav-options">
-                    <li>About</li>
-                    <li>Skills</li>
-                    <li>Projects</li>
-                    <li>Contact</li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#projects">projects</a></li>
+                    <!-- <li><a href="#skills">skills</a></li> -->
+                    <li id="nav-contact"><a href="#contact">contact</a></li>
                 </ul>
             </nav>
-            <h1>Emily Morin</h1>
+            <h1 id="header-full-name">Emily Morin</h1>
             <p>front-end developer</p>
         </header>
+
         <main>
             <!-- About -->
-            <div class="container">
+            <section id="about" class="container">
                 <!-- photo -->
                 <h2>about</h2>
-                <p>based in Boston and northern New England</p>
-                <p>my goals as a developer: to help people share information and resources, and to bring creative visions to life.</p>
-                <p>something about my background in music performance, attention to detail, curiosity, sensitivity, imagination, and strengths as a collaborator</p>
-                <p>something about my hobbies: hiking, bird watching, absorbing a wide variety of music and sound art</p>
-            </div>
+                <div id="about-me">
+                    <p>based in Boston, MA</p>
+                    <p>I'm passionate about technology's potential to educate and engage, help connect people to real-world spaces, build communities, and bring creative visions to life.</p>
+                    <p>With a background in music performance, I bring attention to detail, creativity, and curiosity to my work as a developer.</p>
+                <!-- <p>When not at a computer or a piano, I can be found hiking and trying to identify birds.</p> -->
+                </div>
+                
+            </section>
+            <!-- Skills -->
+            <section id="skills" class="container">
+                <h2 id="dev-skills">skills</h2>
+                <ul class="skills-list">
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>Flexbox</li>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                </ul>
+                <h2>tools</h2>
+                <ul class="tools-list">
+                    <li>GitHub</li>
+                    <li>VS Code</li>
+                    <li>Sublime Text</li>
+                    <li>CodeSandbox</li>
+                    <li>Photoshop</li>
+                </ul>
+            </section>
             <!-- Projects -->
-            <div class="container">
+            <section id="projects" class="container">
                 <h2>projects</h2>
                 <div class="projects-list">
-
-                    <!-- ADD IMAGES -->
-                    <!-- Pro tip! Link the images that represent your projects so when a user clicks on it, it launches your live version! -->
-
                     <div class="project">
                         <!-- Unplugged website image -->
+                        <!-- <a href="https://emily-morin.github.io/unplugged-retreat/" target="_blank"><img src="./img/unplugged-mobile-image.png" alt="unplugged retreat mobile homepage"></a> -->
                         <h3>unplugged retreat website</h3>
                         <p>responsive tech retreat website with 3 pages (Home, FAQ, and About). 
                             <br>coded from a design comp (PSD files for each page). 
@@ -59,6 +79,7 @@
                     </div>
                     <div class="project">
                         <!-- Guess the word game image -->
+                        <!-- <a href="https://emily-morin.github.io/guess-the-word-game/" target="_blank"><img src="./img/guess-the-word-image.png" alt="guess the word game example"></a> -->
                         <h3>guess the word game</h3>
                         <p>game built with Vanilla JavaScript in which the user has 8 guesses to reveal each letter of a hidden word. 
                             <br>includes async function to get a new random word with each restart.</p>
@@ -68,6 +89,7 @@
                     </div>
                     <div class="project">
                         <!-- Sticky notes app image -->
+                        <!-- <a href="https://codesandbox.io/s/em-sticky-notes-interactive-byw1ux" target="_blank"><img src="./img/super-sticky-notes-image.png" alt="super sticky notes example"></a> -->
                         <h3>super sticky notes app</h3>
                         <p>interactive app built with JavaScript React that lets users create, edit, delete, and search through sticky notes. 
                             <br>event listeners and handlers manage data flow based on the user's actions.</p>
@@ -76,35 +98,21 @@
                         <button class="view-project"><a href="https://codesandbox.io/s/em-sticky-notes-interactive-byw1ux" target="_blank">live page</a></button>
                     </div>
                 </div>
-            </div>
-            <!-- Skills -->
-            <div class="container">
-                <h2>developer skills</h2>
-                <ul class="skills-list">
-                    <li>HTML5</li>
-                    <li>CSS3</li>
-                    <li>Flexbox</li>
-                    <li>JavaScript</li>
-                    <li>React</li>
-                </ul>
-                <h2>tech stack</h2>
-                <ul class="tools-list">
-                    <li>GitHub</li>
-                    <li>VS Code</li>
-                    <li>Sublime Text</li>
-                    <li>CodeSandbox</li>
-                    <li>Photoshop</li>
-                </ul>
-            </div>
+            </section>
         </main>
-        <footer class="contact">
-            <p class="email-address">morin.emily@gmail.com</p>
-            <ul class="social-links">
-                <li>linkedin</li>
-                <li>github</li>
-                <li>twitter</li>
-            </ul>
-            <p>© Emily Morin 2022</p>
+        <!-- Contact -->
+        <footer id="contact">
+            <div id="contact-container" class="container">
+                <h2>connect with me</h2>
+                <p id="email-address">morin.emily@gmail.com</p>
+                <ul class="social-links">
+                    <li><a href="https://www.linkedin.com/in/emily-morin-a41b20109/"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                    <li><a href="https://github.com/emily-morin"><i class="fa-brands fa-github"></i></a></li>
+                    <li><a href="https://twitter.com/emily_m_dev"><i class="fa-brands fa-twitter"></i></a></li>
+                </ul>
+            </div>
+            
+            <p id="copyright">© Emily Morin 2022</p>
         </footer>
     </body>
 </html>
