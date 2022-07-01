@@ -20,11 +20,15 @@ body {
 
 main {
     width: 100%;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
 }
 
 .container {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 ul {
@@ -34,9 +38,12 @@ ul {
     margin: 0;
 }
 
-/* img {
-    max-width: 540px;
-} */
+img {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    /* border-radius: 15px; */
+}
 
 a {
     text-decoration: none;
@@ -54,7 +61,7 @@ header {
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin-top: 30px;
+    margin: 30px 0 30px 0;
 }
 
 header h1 {
@@ -70,7 +77,7 @@ header h1 {
 } */
 
 #header-full-name {
-    margin-top: 30px 0 30px 0;
+    margin: 30px 0 30px 0;
 }
 
 header p {
