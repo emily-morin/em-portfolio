@@ -11,7 +11,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@200;400&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&display=swap" rel="stylesheet">        
+        <link href="https://fonts.googleapis.com/css2?family=Alike&display=swap" rel="stylesheet">        
     
     </head>
 
@@ -27,17 +27,59 @@
                 </ul>
             </nav>
             <h1 id="header-full-name">Emily Morin</h1>
-            <p>front-end developer</p>
+            <p>Front-end developer based in Boston, MA.</p>
         </header>
 
         <main>
+            <!-- Projects -->
+            <section id="projects">
+                <div class="container">
+                    <h2>projects</h2>
+                    <div class="projects-list">
+                        <div class="project">
+                            <!-- Unplugged website image -->
+                            <figure>
+                                <a href="https://emily-morin.github.io/unplugged-retreat/" target="_blank"><img src="./img/unplugged-mobile-image.png" alt="unplugged retreat mobile homepage"></a>
+                            </figure>
+                            <h3>unplugged retreat website</h3>
+                            <p class="project-description">responsive tech retreat website with 3 pages (Home, FAQ, and About). 
+                                <br>coded from a design comp (PSD files for each page). 
+                                <br>the site uses flexbox, media queries and responsive typography to adapt to mobile, tablet, and desktop views</p>
+                            <p>skills: HTML5, CSS3, Flexbox, Media Queries, Responsive Typography</p>
+                            <p>tools: GitHub Pages, Photoshop, VS Code</p>
+                            <button class="view-project"><a href="https://emily-morin.github.io/unplugged-retreat/" target="_blank">live page</a></button>
+                        </div>
+                        <div class="project">
+                            <!-- Guess the word game image -->
+                            <figure>
+                                <a href="https://emily-morin.github.io/guess-the-word-game/" target="_blank"><img src="./img/guess-the-word-image.png" alt="guess the word game example"></a>
+                            </figure>
+                            <h3>guess the word game</h3>
+                            <p class="project-description">game built with Vanilla JavaScript in which the user has 8 guesses to reveal each letter of a hidden word. includes async/await function to get a new random word with each restart.</p>
+                            <p>skills: vanilla JavaScript, DOM manipulation </p>
+                            <p>tools: GitHub Pages, JSON, VS Code</p>
+                            <button class="view-project"><a href="https://emily-morin.github.io/guess-the-word-game/" target="_blank">live page</a></button>
+                        </div>
+                        <div class="project">
+                            <!-- Sticky notes app image -->
+                            <figure>
+                                <a href="https://codesandbox.io/s/em-sticky-notes-interactive-byw1ux" target="_blank"><img src="./img/super-sticky-notes-image.png" alt="super sticky notes example"></a>
+                            </figure>
+                            <h3>super sticky notes app</h3>
+                            <p class="project-description">interactive app built with JavaScript React that lets users create, edit, delete, and search through sticky notes. UI is built from multiple components. event listeners and handlers manage data flow based on the user's actions.</p>
+                            <p>skills: React, JSX, components</p>
+                            <p>tools: CodeSandbox</p>
+                            <button class="view-project"><a href="https://codesandbox.io/s/em-sticky-notes-interactive-byw1ux" target="_blank">live page</a></button>
+                        </div>
+                    </div>
+                </div>
+            </section>
             <!-- About -->
             <section id="about">
                 <div class="container">
                     <!-- photo -->
                     <h2>about</h2>
                     <div id="about-me">
-                        <p>based in Boston, MA</p>
                         <p>I'm passionate about technology's potential to educate and engage, help connect people to real-world spaces, build communities, and bring creative visions to life.</p>
                         <p>With a background in music performance, I bring attention to detail, creativity, and curiosity to my work as a developer.</p>
                     <!-- <p>When not at a computer or a piano, I can be found hiking and trying to identify birds.</p> -->
@@ -63,43 +105,6 @@
                         <li>CodeSandbox</li>
                         <li>Photoshop</li>
                     </ul>
-                </div>
-            </section>
-            <!-- Projects -->
-            <section id="projects">
-                <div class="container">
-                    <h2>projects</h2>
-                    <div class="projects-list">
-                        <div class="project">
-                            <!-- Unplugged website image -->
-                            <!-- <a href="https://emily-morin.github.io/unplugged-retreat/" target="_blank"><img src="./img/unplugged-mobile-image.png" alt="unplugged retreat mobile homepage"></a> -->
-                            <h3>unplugged retreat website</h3>
-                            <p>responsive tech retreat website with 3 pages (Home, FAQ, and About). 
-                                <br>coded from a design comp (PSD files for each page). 
-                                <br>the site uses flexbox, media queries and responsive typography to adapt to mobile, tablet, and desktop views</p>
-                            <p>skills: HTML5, CSS3, Flexbox, Media Queries, Responsive Typography</p>
-                            <p>tools: GitHub Pages, Photoshop, VS Code</p>
-                            <button class="view-project"><a href="https://emily-morin.github.io/unplugged-retreat/" target="_blank">live page</a></button>
-                        </div>
-                        <div class="project">
-                            <!-- Guess the word game image -->
-                            <!-- <a href="https://emily-morin.github.io/guess-the-word-game/" target="_blank"><img src="./img/guess-the-word-image.png" alt="guess the word game example"></a> -->
-                            <h3>guess the word game</h3>
-                            <p>game built with Vanilla JavaScript in which the user has 8 guesses to reveal each letter of a hidden word. includes async/await function to get a new random word with each restart.</p>
-                            <p>skills: vanilla JavaScript, DOM manipulation </p>
-                            <p>tools: GitHub Pages, JSON, VS Code</p>
-                            <button class="view-project"><a href="https://emily-morin.github.io/guess-the-word-game/" target="_blank">live page</a></button>
-                        </div>
-                        <div class="project">
-                            <!-- Sticky notes app image -->
-                            <!-- <a href="https://codesandbox.io/s/em-sticky-notes-interactive-byw1ux" target="_blank"><img src="./img/super-sticky-notes-image.png" alt="super sticky notes example"></a> -->
-                            <h3>super sticky notes app</h3>
-                            <p>interactive app built with JavaScript React that lets users create, edit, delete, and search through sticky notes. UI is built from multiple components. event listeners and handlers manage data flow based on the user's actions.</p>
-                            <p>skills: React, JSX, components</p>
-                            <p>tools: CodeSandbox</p>
-                            <button class="view-project"><a href="https://codesandbox.io/s/em-sticky-notes-interactive-byw1ux" target="_blank">live page</a></button>
-                        </div>
-                    </div>
                 </div>
             </section>
         </main>

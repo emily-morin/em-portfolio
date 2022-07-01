@@ -11,7 +11,6 @@ body {
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
-    background-color: #e8eff7;
     color: #453e4f;
     font-family: 'Barlow', sans-serif;
     font-size: 1em;
@@ -20,9 +19,7 @@ body {
 
 main {
     width: 100%;
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
+    /* background: linear-gradient(#e8eff7, #ffffff, #e8eff7); */
 }
 
 .container {
@@ -38,6 +35,10 @@ ul {
     margin: 0;
 }
 
+figure {
+    width: fit-content;
+}
+
 img {
     width: 100%;
     height: auto;
@@ -49,23 +50,33 @@ a {
     text-decoration: none;
 }
 
-h1, h2, h3, nav ul li {
-    font-weight: bold;
+h2, h3 {
+    font-family: "Alike", serif;
+    /* font-weight: 500; */
 }
 
-/* HEADER */
+#about p, #projects p {
+    width: 100%;
+    text-align: left;
+}
+
+/* --- HEADER --- */
 
 header {
+    background-color: #453e4f;
+    color:#e8eff7;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin: 30px 0 30px 0;
+    padding: 30px 0 30px 0;
 }
 
 header h1 {
     font-size: 3em;
+    font-family: "Alike", serif;
+    /* font-weight: 500; */
 }
 
 /* #initials {
@@ -84,6 +95,8 @@ header p {
     font-size: 1.5em;
     line-height: 1.5em;
     margin: 0;
+    text-align: center;
+    font-family: "Alike", serif;
 }
 
 /* nav */
@@ -99,8 +112,12 @@ header nav ul {
     font-size: 1.5em;
 }
 
+nav ul li {
+    font-weight: bold;
+}
+
 header a {
-    color:#453e4f;
+    color:#e8eff7;
 }
 
 #nav-contact {
@@ -110,15 +127,44 @@ header a {
     /* padding: 0 0.5em 0.25em 0.5em; */
 }
 
+/* --- MAIN --- */
+
+/* PROJECTS */
+.projects-list {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    width: 85%;
+    padding: 0 30px 0 30px;
+}
+
+.project {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.project h3 {
+    margin: 20px 0 20px 0;
+}
+
+.project-description {
+    margin: 0 0 30px 0;
+}
+
 
 /* ABOUT */
 #about {
+    /* background-color: #e8eff7; */
     align-items: center;
 }
 
 #about-me {
-    width: 75%;
-    text-align: center;
+    width: 85%;
 }
 
 /* SKILLS */
@@ -137,26 +183,8 @@ header a {
     justify-content: space-around;
 }
 
-/* PROJECTS */
-#projects {
-    align-items: center;
-}
 
-.projects-list {
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
-    width: 75%;
-    padding: 0 30px 0 30px;
-}
-
-.project {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    text-align: center;
-}
-
-/* CONTACT */
+/* --- FOOTER --- */
 #contact {
     background-color: #453e4f;
     color:#e8eff7;
