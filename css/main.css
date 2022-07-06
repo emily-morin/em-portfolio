@@ -43,7 +43,9 @@ img {
     width: 100%;
     height: auto;
     margin: auto;
-    border-radius: 15px;
+    max-inline-size: 100%;
+    block-size:auto;
+    /* border-radius: 15px; */
 }
 
 a {
