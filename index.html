@@ -3,21 +3,35 @@
 
     <head>
         <meta charset="UTF-8" />
-        <title>Emily Morin</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- Title and author -->
+        <title>Emily Morin</title>
+        <meta name="author" content="Emily Morin" />
+
+        <!-- Stylesheets -->
         <link rel="stylesheet" href="css/main.css" />
         <link rel="stylesheet" href="css/normalize.css">
-        <script src="https://kit.fontawesome.com/4391714d9a.js" crossorigin="anonymous"></script>
+        
+        <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@200;400&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Alike&display=swap" rel="stylesheet">        
-    
+        
+        <!-- Fontawesome social media icons -->
+        <script src="https://kit.fontawesome.com/4391714d9a.js" crossorigin="anonymous"></script>
+
+        <!-- JavaScript -->
+        <script src="./js/top-btn.js"></script>
     </head>
 
     <body>
+        <!-- Back to top button -->
+        <button onclick="scrollTop()" id="top-button">
+            <i class="fa-solid fa-chevron-up"></i>
+        </button>
         <header>
-            <!-- <h1 id="initials">EM</h1> -->
             <nav>
                 <ul class="nav-options">
                     <li><a href="#about">About</a></li>
@@ -27,7 +41,6 @@
                 </ul>
             </nav>
             <h1 id="header-full-name">Emily Morin</h1>
-            <!-- <hr> -->
             <p>Front End Developer</p>
         </header>
 

@@ -62,6 +62,17 @@ h2, h3 {
     text-align: left;
 }
 
+/* scroll to top button */
+#top-button {
+    position: absolute;
+    bottom: 3em;
+    right: 3%;
+    width: 10%;
+    background-color: #FFE8D6;
+    border: solid 1px #453e4f;
+    border-radius: 5px;
+}
+
 /* --- HEADER --- */
 
 header {
@@ -92,15 +103,6 @@ header h1 {
 #header-full-name {
     margin: 30px 0 30px 0;
 }
-
-/* header hr {
-    background-color: #F19494;
-    color: #F19494;
-    height: 1px;
-    width: 40%;
-    border-width: 0;
-    margin-bottom: 20px;
-} */
 
 header p {
     font-size: 1.5em;
@@ -272,10 +274,21 @@ footer h2 {
 
 
 /* --------------------------- tablet --------------------------- */
-/* @media only screen and (min-width: 768px) {} */
+@media only screen and (min-width: 768px) {
 
 /* HEADER */
+header {
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
 
+header nav ul {
+    font-size: 1.75em;
+}
+
+header h1 {
+    font-size: 4em;
+}
 
 /* ABOUT */
 
@@ -288,6 +301,7 @@ footer h2 {
 
 /* CONTACT */
 
+}
 
 /* --------------------------- desktop --------------------------- */
 /* @media only screen and (min-width: 1200px) {} */
