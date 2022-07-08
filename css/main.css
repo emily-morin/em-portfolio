@@ -64,13 +64,16 @@ h2, h3 {
 
 /* scroll to top button */
 #top-button {
-    position: absolute;
+    display: none;
+    position: fixed;
     bottom: 3em;
+    z-index: 99;
     right: 3%;
     width: 10%;
     background-color: #FFE8D6;
     border: solid 1px #453e4f;
-    border-radius: 5px;
+    border-radius: 10px;
+    padding: 15px;
 }
 
 /* --- HEADER --- */
