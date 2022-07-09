@@ -10,6 +10,8 @@ function showButton () {
     }
 }
 
+showButton();
+
 // bring user back to top of page when button is clicked
 function scrollToTop () {
     document.body.scrollTop = 0;
