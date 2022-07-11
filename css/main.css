@@ -29,6 +29,11 @@ main {
     align-items: center;
 }
 
+.dark {
+    background-color: #453e4f;
+    color:#e8eff7;
+}
+
 ul {
     list-style-type: none;
     text-decoration: none;
@@ -46,7 +51,8 @@ img {
     margin: auto;
     max-inline-size: 100%;
     block-size:auto;
-    /* border-radius: 15px; */
+    border: 1px solid #453e4f;
+    border-radius: 20px;
 }
 
 a {
@@ -85,15 +91,13 @@ h3 {
     width: 15%;
     background-color: #FFE8D6;
     border: solid 1px #453e4f;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 15px;
 }
 
 /* --- HEADER --- */
 
 header {
-    background-color: #453e4f;
-    color:#e8eff7;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -164,7 +168,7 @@ header a {
 
 /* ABOUT */
 #about {
-    background-color: #e8eff7;
+    /* background-color: #e8eff7; */
     align-items: center;
     padding: 30px 0;
 }
@@ -177,8 +181,16 @@ header a {
     line-height: 1.5em;
 }
 
+#about img {
+    border: 2px solid #453e4f;
+    border-radius: 50%;
+}
+
 #about-me {
     width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #hi {
@@ -230,7 +242,7 @@ header a {
 #skills {
     padding: 60px 0;
     align-items: center;
-    background-color:#e8eff7;
+    /* background-color:#e8eff7; */
 }
 
 #dev-skills {
@@ -252,8 +264,6 @@ header a {
 
 /* --- FOOTER --- */
 #contact {
-    background-color: #453e4f;
-    color:#e8eff7;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -298,6 +308,10 @@ footer h2 {
 
 /* --------------------------- tablet --------------------------- */
 @media only screen and (min-width: 768px) {
+
+#top-button {
+    width: 8%;
+}
 
 /* HEADER */
 header {
