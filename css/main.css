@@ -298,6 +298,7 @@ footer h2 {
 .social-links {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     min-width: 200px;
     font-size: 1.5em;
     line-height: 1.5em;
@@ -315,6 +316,10 @@ footer h2 {
 
 #top-button {
     width: 8%;
+}
+
+h2, #projects h2 {
+    margin: 60px 0;
 }
 
 /* HEADER */
@@ -346,9 +351,41 @@ header h3 {
 
 
 /* SKILLS */
+#skills {
+    padding: 120px 0;
+}
 
+#skills ul {
+    flex-flow: column wrap;
+    height: 350px;
+    width: 100%;
+    justify-content: space-between;
+    align-content: center;
+    text-align: center;
+    column-gap: 3em;
+}
+
+#skills ul li {
+    padding: 0.75em 0;
+}
 
 /* CONTACT */
+#contact {
+    padding-top: 120px;
+}
+
+.contact-items {
+    display: flex;
+    margin: auto;
+    padding: 80px 0 0 0;
+    justify-content: center;
+    gap: 50px;
+}
+
+#copyright {
+    margin: 80px 0 80px 0;
+}
+
 
 }
 
