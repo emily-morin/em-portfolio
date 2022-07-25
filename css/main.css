@@ -98,10 +98,11 @@ p {
     bottom: 10%;
     z-index: 99;
     right: 10%;
-    width: 15%;
-    background-color: #e8eff7;
-    border: solid 1px #453e4f;
-    border-radius: 20px;
+    width: 3em;
+    background-color: #453e4f;
+    /* border: solid 1px #453e4f; */
+    color: #fff;
+    border-radius: 50%;
     padding: 15px;
 }
 
@@ -157,26 +158,19 @@ header nav ul {
     font-size: 1em;
 }
 
-nav ul li {
-    background-color: #e8eff7;
-    padding: 0.25em 0.5em;
-    border-radius: 20px;
-}
-
-/* header a {
-    color:#e8eff7;
+/* nav ul li:hover {
+    padding: 0.5em;
+    border:1px solid #453e4f;
+    border-radius: 50%;
+    transition: all .4s ease;
 } */
 
-#nav-contact {
-    /* background-color: #e9b14c; */
-    /* border: 2px solid #e9b14c; */
-    border-radius: 20px;
-    /* padding: 0 0.5em 0.25em 0.5em; */
+nav ul li a {
+    padding: 0.5em;
 }
 
-/* --- MAIN --- */
 
-/* ABOUT */
+/* --- MAIN --- */
 
 /* ABOUT */
 #about {
@@ -324,9 +318,9 @@ footer h2 {
 /* --------------------------- tablet --------------------------- */
 @media only screen and (min-width: 768px) {
 
-#top-button {
+/* #top-button {
     width: 8%;
-}
+} */
 
 h2, #projects h2 {
     margin: 60px 0;
@@ -361,8 +355,17 @@ header h3 {
     margin: 1em 0 1.5em 0;
 }
 
+#about-me {
+    flex-direction: row;
+    justify-content: space-around;
+}
+
 #hi {
     margin: 1em 0;
+}
+
+#bio {
+    width: 40%;
 }
 
 #about p {
@@ -450,6 +453,10 @@ header h3 {
     text-transform: uppercase;
     font-weight: bold;
  } */
+
+
+
+
 
 /* ABOUT */
 
