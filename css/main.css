@@ -115,7 +115,7 @@ header {
     align-items: center;
     width: 100%;
     padding: 30px 0 50px 0;
-    border-bottom: 1px solid #453e4f;
+    /* border-bottom: 1px solid #453e4f; */
 }
 
 header h1 {
@@ -240,16 +240,20 @@ nav ul li a {
     padding: 0.5em 2em;
     border-radius: 20px;
     margin-top: 20px;
-    background-color: #FFE8D6;
+    background-color: #ADA4BA;
     color:#453e4f;
     border: solid 1px #453e4f;
+}
+
+.view-project a {
+    font-weight: 600;
 }
 
 /* SKILLS */
 #skills {
     padding: 60px 0;
     align-items: center;
-    border-bottom: 1px solid #453e4f;
+    /* border-bottom: 1px solid #453e4f; */
     /* background-color:#e8eff7; */
 }
 
@@ -277,6 +281,7 @@ nav ul li a {
     align-items: center;
     padding: 80px 30px 0 30px;
     width: 100%;
+    background-color: #ADA4BA;
 }
 
 #contact-container {
