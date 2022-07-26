@@ -151,6 +151,7 @@ header nav ul {
     display: flex;
     justify-content: space-between;
     font-size: 1em;
+    font-weight: 500;
 }
 
 /* nav ul li:hover {
@@ -449,17 +450,22 @@ header h3 {
 }
 
 /* --------------------------- desktop --------------------------- */
-/* @media only screen and (min-width: 1200px) {} */
+@media only screen and (min-width: 1200px) {
 
 /* HEADER */
 
-/* header nav ul {
-    text-transform: uppercase;
-    font-weight: bold;
- } */
+header {
+    padding-top: 80px;
+ }
 
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}
 
-
+header nav ul {
+    gap: 60px;
+}
 
 
 /* ABOUT */
@@ -473,3 +479,4 @@ header h3 {
 
 /* CONTACT */
 
+}
