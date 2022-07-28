@@ -78,6 +78,10 @@ h3 {
     font-size: 1.5em;
 }
 
+h4 {
+    font-family: "Alike", serif;
+}
+
 p {
     margin: 0;
 }
@@ -373,13 +377,9 @@ header h3 {
     margin: 0 1.5em;
 }
 
-
-
 #hi {
     margin: 1em 0;
 }
-
-
 
 #about p {
     margin: 0.75em 0;
@@ -394,6 +394,7 @@ header h3 {
     width: 90%;
     display: flex;
     flex-flow: row wrap;
+    justify-content: space-around;
     gap: 3em;
 }
 
@@ -478,6 +479,7 @@ header {
 header nav {
     display: flex;
     justify-content: flex-end;
+    margin-bottom: 90px;
 }
 
 header nav ul {
@@ -511,6 +513,11 @@ header h2 {
 
 .projects-list {
     margin: 80px 0 40px 0;
+}
+
+.project h4 {
+    font-size: 1.5em;
+    margin-bottom: 40px;
 }
 
 /* SKILLS */
