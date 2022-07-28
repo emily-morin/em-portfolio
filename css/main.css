@@ -373,18 +373,13 @@ header h3 {
     margin: 0 1.5em;
 }
 
-#about-content {
-    flex-direction: row;
-    justify-content: space-around;
-}
+
 
 #hi {
     margin: 1em 0;
 }
 
-#bio {
-    width: 40%;
-}
+
 
 #about p {
     margin: 0.75em 0;
@@ -494,9 +489,19 @@ header h2 {
 }
 
 /* ABOUT */
+#about-content {
+    flex-direction: row;
+    justify-content: space-around;
+}
+
 #hi {
     font-size: 1.75em;
 }
+
+#bio {
+    width: 40%;
+}
+
 
 /* PROJECTS */
 
