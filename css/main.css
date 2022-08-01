@@ -100,7 +100,7 @@ p {
     right: 10%;
     width: 3em;
     background-color: #453e4f;
-    border: 1px solid #fff;
+    border: 1px solid #453e4f;
     color: #fff;
     border-radius: 50%;
     padding: 15px;
@@ -109,7 +109,7 @@ p {
 #top-button:hover {
     background-color:#cac4d1;
     color:#453e4f;
-    border:1px solid #453e4f;
+    cursor: pointer;
 }
 
 /* --- HEADER --- */
@@ -133,18 +133,6 @@ header h1 {
 header h2 {
     text-align: center;
 }
-
-/* #initials {
-    background-color: #453e4f;
-    color:#e8eff7;
-    width: 100%;
-    text-align: center;
-    padding: 0.5em;
-} */
-
-/* #header-full-name {
-    color: white;
-} */
 
 header p {
     font-size: 1.5em;
@@ -257,18 +245,6 @@ nav ul li a:hover {
     font-weight: 600;
 }
 
-/* .view-project {
-    padding: 0.5em 2em;
-    border-radius: 20px;
-    margin-top: 20px;
-    background-color: #453e4f;
-} */
-
-/* .view-project:hover {
-    background-color:#cac4d1;
-    color:#453e4f;
-} */
-
 .view-project {
     padding: 0.5em 2em;
     border: 1px solid #fff;
@@ -326,10 +302,6 @@ nav ul li a:hover {
     align-items: center;
 }
 
-/* footer a {
-    color: #e8eff7;
-} */
-
 footer h2 {
     margin-top: 0;
     margin-bottom: 0;
@@ -355,13 +327,9 @@ footer h2 {
 }
 
 
-
 /* --------------------------- tablet --------------------------- */
 @media only screen and (min-width: 768px) {
 
-/* #top-button {
-    width: 8%;
-} */
 
 h3 {
     font-size: 2em;
@@ -553,13 +521,23 @@ header h2 {
 }
 
 /* CONTACT */
+#contact-container {
+    width: 50%;
+}
 
 .contact-items {
-    padding-top: 40px;
+    padding-top: 120px;
+    width: 100%;
+    gap: unset;
+    justify-content: space-between;
+}
+
+.social-links {
+    justify-content: space-between;
 }
 
 #copyright {
-    margin: 40px 0 120px 0;
+    margin: 120px 0;
 }
 
 }
