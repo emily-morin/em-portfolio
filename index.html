@@ -16,14 +16,13 @@
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@200;300;400;500;600&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Alike&display=swap" rel="stylesheet">        
         
         <!-- Fontawesome social media icons -->
         <script src="https://kit.fontawesome.com/4391714d9a.js" crossorigin="anonymous"></script>
 
-        <!-- JavaScript -->
+        <!-- JavaScript for back to top button -->
         <script src="./js/top-btn.js"></script>
         
     </head>
@@ -33,6 +32,7 @@
         <button onclick="scrollToTop()" id="top-button" style="display: block;">
             <i class="fa-solid fa-arrow-up"></i>
         </button>
+
         <header>
             <nav>
                 <ul class="nav-options">
@@ -56,8 +56,10 @@
                         <figure id="headshot"><img src="./img/selfie-green-bg.jpg" alt="Photo of Emily Morin"></figure>
                         <div id="bio">
                             <p id="hi">Curious, detail-oriented developer with a background in the performing arts.</p>
-                            <p class="bio-text">Coding has given me a new perspective on what musical training had already instilled in me - how inherently rewarding it is to understand something through the connections among its most basic units.</p>
-                            <p class="bio-text">I chase understanding every day, approaching challenges with a creative and persistent drive to continually learn as I build.</p>
+                            <p class="bio-text">Bringing years of collaborative music-making and a love for languages to my web development work, I dive into the details and look for meaning in how those details connect. 
+                                I celebrate opportunities to work with a team, finding and incorporating whichever tools are useful for the current project. 
+                                I approach challenges with a creative and persistent drive to learn as I build.</p>
+                            <p class="bio-text">When not at a computer or a piano, I enjoy traveling, hiking, and board games.</p>
                             
                         </div>
                     </div>
@@ -85,7 +87,7 @@
                                 <a href="https://emily-morin.github.io/guess-the-word-game/" target="_blank"><img src="./img/guess-the-word-full-screen.png" alt="guess the word game example"></a>
                             </figure>
                             <h4>Guess the Word Game</h4>
-                            <p class="project-description">Game built with vanilla JavaScript in which the user has 8 guesses to reveal each letter of a hidden word. Includes async/await function to get a new random word with each restart.</p>
+                            <p class="project-description">Game built with vanilla JavaScript. The user has 8 guesses to reveal each letter of a hidden word. Includes async/await function to get a new random word from JSON data with each restart.</p>
                             <p><span>Skills:</span> JavaScript</p>
                             <p><span>Tools:</span> VS Code, GitHub Pages</p>
                             <a class="view-project" href="https://emily-morin.github.io/guess-the-word-game/" target="_blank">Live Page</a>
@@ -130,7 +132,7 @@
         <!-- Contact -->
         <footer id="contact">
             <div id="contact-container" class="container">
-                <h2>Contact</h2>
+                <h3>Contact</h3>
                 <div class="contact-items">
                     <p id="email-address">morin.emily@gmail.com</p>
                     <ul class="social-links">
@@ -144,7 +146,7 @@
             <p id="copyright">© Emily Morin <span id="date"></span></p>
         </footer>
 
-        <!-- script tags here for any JS -->
+        <!-- script tags here for JavaScript -->
         <script src="./js/script.js"></script>
     </body>
 </html>

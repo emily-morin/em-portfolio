@@ -20,7 +20,6 @@ body {
 
 main {
     width: 100%;
-    /* background: linear-gradient(#e8eff7, #ffffff, #e8eff7); */
 }
 
 .container {
@@ -121,7 +120,6 @@ header {
     align-items: center;
     width: 100%;
     padding: 30px 0 50px 0;
-    /* border-bottom: 1px solid #453e4f; */
 }
 
 header h1 {
@@ -163,11 +161,9 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    /* padding: 0.5em; */
     border:1px solid #453e4f;
     background-color: #cac4d1;
     border-radius: 30px;
-    /* transition: all .4s ease; */
 }
 
 
@@ -175,7 +171,6 @@ nav ul li a:hover {
 
 /* ABOUT */
 #about {
-    /* background-color: #e8eff7; */
     align-items: center;
     padding: 30px 0;
 }
@@ -216,11 +211,8 @@ nav ul li a:hover {
 }
 
 .projects-list {
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
     width: 85%;
-    padding: 0 30px 0 30px;
+    padding: 0 30px;
 }
 
 .project {
@@ -229,8 +221,12 @@ nav ul li a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
-    margin-bottom: 50px;
+    border-bottom: 1px solid #453e4f;
+    padding: 50px 0;
+}
+
+.third-project {
+    border-bottom: none;
 }
 
 .project h4 {
@@ -265,8 +261,6 @@ nav ul li a:hover {
 #skills {
     padding: 60px 0;
     align-items: center;
-    /* border-bottom: 1px solid #453e4f; */
-    /* background-color:#e8eff7; */
 }
 
 #dev-skills {
@@ -293,7 +287,6 @@ nav ul li a:hover {
     align-items: center;
     padding: 80px 30px 0 30px;
     width: 100%;
-    background-color: #cac4d1;
 }
 
 #contact-container {
@@ -302,10 +295,9 @@ nav ul li a:hover {
     align-items: center;
 }
 
-footer h2 {
+footer h3 {
     margin-top: 0;
     margin-bottom: 0;
-    font-size: 2em;
 }
 
 #email-address {
@@ -392,6 +384,8 @@ header h3 {
 .project {
     width: 45%;
     margin: 0;
+    padding-bottom: 0;
+    border-bottom: none;
 }
 
 .project-description {
@@ -425,8 +419,6 @@ header h3 {
 #skills ul li {
     padding: 0.75em 0;
     width: 40%;
-    /* background-color: #e8eff7;
-    border-radius: 20px; */
 }
 
 /* CONTACT */
