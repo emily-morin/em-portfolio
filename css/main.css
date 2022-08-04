@@ -145,7 +145,7 @@ header p {
 /* nav */
 
 header nav {
-    width: 85%;
+    width: 90%;
     margin-bottom: 30px;
 }
 
@@ -222,12 +222,7 @@ nav ul li a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-bottom: 1px solid #453e4f;
-    padding: 50px 0;
-}
-
-.third-project {
-    border-bottom: none;
+    padding-top: 50px;
 }
 
 .project h4 {
@@ -260,7 +255,7 @@ nav ul li a:hover {
 
 /* SKILLS */
 #skills {
-    padding: 60px 0;
+    padding: 110px 0 60px 0;
     align-items: center;
 }
 
@@ -385,8 +380,6 @@ header h3 {
 .project {
     width: 45%;
     margin: 0;
-    padding-bottom: 0;
-    border-bottom: none;
 }
 
 .project-description {
