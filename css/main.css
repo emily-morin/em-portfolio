@@ -317,7 +317,7 @@ footer h3 {
 
 .social-links {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     min-width: 240px;
     font-size: 1.5em;
